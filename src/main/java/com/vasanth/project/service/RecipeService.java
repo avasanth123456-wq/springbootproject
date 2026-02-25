@@ -18,6 +18,8 @@ public class RecipeService {
         recipe.setDescription(dto.getDescription());
         recipe.setPrice(dto.getPrice());
         recipe.setCategory(dto.getCategory());
+
+        System.out.println("1232");
         return recipeRepository.save(recipe);
 
       }
