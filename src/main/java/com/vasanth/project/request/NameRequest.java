@@ -25,4 +25,23 @@ public class NameRequest {
 
     private int minLength;
 
+    public String getMobile() {
+        return null;
+    }
+
+    public String getPassword() {
+        return null;
+    }
+
+    public String getEmail() {
+        return null;
+    }
+
+    public String getName() {
+        return null;
+    }
+
+    public String getRole() {
+        return null;
+    }
 }
