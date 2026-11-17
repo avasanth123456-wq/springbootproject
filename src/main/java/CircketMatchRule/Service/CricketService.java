@@ -21,7 +21,7 @@ public class CricketService {
     @Async
     public CompletableFuture<MatchResponseDTO>processBall(BallRequestDTO dto){
         CricketMatch match = repository.findById(1L)
-                .orElse(new CricketMatch(0,0,0,0));
+                .orElse(new CricketMatch(0,0,0,2));// change 1
 
         BallRequestDTO request = new BallRequestDTO();
 
