@@ -1,6 +1,6 @@
 package Hotstar.Service;
 
-// hotstar webseries and moive programm
+// hotstar webseries and moive programms
 import Hotstar.Entity.Video;
 import Hotstar.Repository.VideoRepository;
 import Hotstar.dto.VideoRequestDTO;
